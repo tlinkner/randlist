@@ -1,0 +1,18 @@
+{
+  "name": "randlist",
+  "version": "1.0.0",
+  "description": "generate a list of random numbers of n length using optional salt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Todd Linkner",
+  "license": "ISC",
+  "dependencies": {
+    "seedrandom": "^3.0.5",
+    "yargs": "^17.1.1"
+  },
+  "bin": {
+    "randlist": "index.js"
+  }
+}
